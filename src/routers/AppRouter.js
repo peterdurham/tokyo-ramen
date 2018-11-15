@@ -18,13 +18,13 @@ const AppRouter = () => (
         <div>
             <Header/>
             <Switch>
-                <Route path="/tokyo-ramen" component={HomePage} exact={true} />
+                <Route path="/" component={HomePage} exact={true} />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/menu" component={MenuPage} />
                 <Route path="/locations" component={LocationsPage} />
                 <Route path="/contact" component={ContactPage} />
                 <Route path="/orderonline" component={OrderOnlinePage} />
-                <Route component={NotFoundPage} />
+                
             </Switch>
             <Footer />
         </div>
