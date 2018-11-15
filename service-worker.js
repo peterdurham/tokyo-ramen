@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tokyo-ramen/precache-manifest.85d03220908a0d9b8babda1b3b8e2942.js"
+  "/tokyo-ramen/precache-manifest.6c2265164a9f2bb449a2239d3c55c6c6.js"
 );
 
 workbox.clientsClaim();
