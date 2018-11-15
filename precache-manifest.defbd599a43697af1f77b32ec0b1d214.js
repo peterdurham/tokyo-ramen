@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/tokyo-ramen/static/media/japanrestaurant.b24aa117.jpg"
   },
   {
-    "revision": "a46d57ccca66e248b30a",
+    "revision": "bd986481f7750d788fee",
     "url": "/tokyo-ramen/static/css/main.02aee53f.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/tokyo-ramen/static/media/meal.c5dbefb2.jpg"
   },
   {
-    "revision": "a46d57ccca66e248b30a",
-    "url": "/tokyo-ramen/static/js/main.a46d57cc.chunk.js"
+    "revision": "bd986481f7750d788fee",
+    "url": "/tokyo-ramen/static/js/main.bd986481.chunk.js"
   },
   {
     "revision": "7308c2965ffc7625c19f7690fde3df32",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/tokyo-ramen/static/media/tokyo2.c5694014.jpg"
   },
   {
-    "revision": "3069271a3af4173f2714593e0fb64444",
+    "revision": "0f1a37cb801dacd7833e964df031969f",
     "url": "/tokyo-ramen/index.html"
   }
 ];
