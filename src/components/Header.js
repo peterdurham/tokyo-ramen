@@ -11,7 +11,7 @@ const Header = () => {
     <header className="header">
       
         <img className="header__logo" src={Logo} alt="logo" />
-        <NavLink className="header__title" to="/" activeClassName="header__link-active" exact={true}>Tokyo Ramen</NavLink>
+        <NavLink className="header__title" to="/home" activeClassName="header__link-active" exact={true}>Tokyo Ramen</NavLink>
         <NavLink className="header__link" to="/about" activeClassName="header__link-active" exact={true}>About</NavLink>
         <NavLink className="header__link" to="/menu" activeClassName="header__link-active">Menu</NavLink>
         <NavLink className="header__link" to="/locations" activeClassName="header__link-active">Locations</NavLink>
