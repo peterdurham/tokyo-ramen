@@ -1,0 +1,198 @@
+.menu {
+    display:flex;
+    justify-content: center;
+    
+    background-color: $color-black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    &__header {
+        text-align: center;
+        background-color: $color-black;
+        color: white;
+    }
+    &__sidebar {
+        min-width:15rem;
+        text-align: right;
+        padding-right: 2rem;
+        border-right: 2px solid white;
+        flex-basis: 25%;
+    }
+    &__link {
+        padding: 1rem 0;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all .4s;
+
+        &--selected {
+            color: $color-red;
+        }
+    }
+    &__link:hover {
+        color: $color-red;
+    }
+    &__content {
+        min-width: 60rem;
+        max-width:70rem;
+        padding-left: 2rem;
+        flex-basis: 75%;
+        padding-right:10rem;
+    }
+    &__button {
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+        padding: 1rem 1.7rem;
+        border-radius: 2px;
+        font-size: 2rem;
+        transition: all .4s;
+        
+        &--back{
+            background-color: $color-black;
+            text-align: center;
+            padding-bottom: 4rem;
+        }
+    }
+    &__button:hover{
+        background-color: white;
+        color: $color-black;
+    }
+    &__background {
+        &--ramen {
+            background: url('../img/ramenbowl3.jpg');
+            height: 50vh;
+        }
+        &--appetizers {
+            background: url('../img/appetizers.jpg');
+            height: 50vh;
+            background-size: cover;
+        }
+        &--drinks {
+            background: url('../img/drinks.jpg');
+            background-size: cover;
+            height: 50vh;
+        }
+        &--desserts {
+            background: url('../img/dessert.jpg');
+            background-size: cover;
+            height: 50vh;
+        }
+        
+        
+        
+    }
+
+
+    &__ramen {
+        
+        &--header {
+            color: $color-red;
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        &--selection {
+            padding-left: 2rem;
+            margin-bottom: 1rem;    
+        }
+        
+        &--title {
+            font-size: 2rem;
+        }
+        &--text {
+            padding-left: 2rem;
+        }
+        &--addon {
+            padding-left: 2rem;
+            margin-bottom: .5rem;
+        }
+    }
+    &__app {
+        
+        &--header {
+            color: $color-red;
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        &--selection {
+            padding-left: 2rem;
+            margin-bottom: 1rem;    
+        }
+        
+        &--title {
+            font-size: 2rem;
+        }
+        &--text {
+            padding-left: 2rem;
+        }
+        &--addon {
+            padding-left: 2rem;
+            margin-bottom: .5rem;
+        }
+    }
+    &__beer {
+        &--header {
+            color: $color-red;
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        &--selection {
+            padding-left: 2rem;
+            margin-bottom: 1rem;    
+        }
+        
+        &--title {
+            font-size: 2rem;
+        }
+        &--text {
+            padding-left: 2rem;
+        }
+        &--addon {
+            padding-left: 2rem;
+            margin-bottom: .5rem;
+        }
+    }
+    &__sake {
+        &--header {
+            color: $color-red;
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        &--selection {
+            padding-left: 2rem;
+            margin-bottom: 1rem;    
+        }
+        
+        &--title {
+            font-size: 2rem;
+        }
+        &--text {
+            padding-left: 2rem;
+        }
+        &--addon {
+            padding-left: 2rem;
+            margin-bottom: .5rem;
+        }
+    }
+    &__desserts {
+        &--header {
+            color: $color-red;
+            margin-bottom: .5rem;
+            font-size: 2rem;
+        }
+        &--selection {
+            padding-left: 2rem;
+            margin-bottom: 1rem;    
+        }
+        
+        &--title {
+            font-size: 2rem;
+        }
+        &--text {
+            padding-left: 2rem;
+        }
+        &--addon {
+            padding-left: 2rem;
+            margin-bottom: .5rem;
+        }
+    }
+}

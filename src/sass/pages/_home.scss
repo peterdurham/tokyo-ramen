@@ -1,0 +1,271 @@
+
+.home__header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/japanrestaurant.jpg');
+    background-size: cover;
+    
+    background-position: top;
+    height:80vh;
+    text-align: right;
+    &--text {
+        color:white;
+        margin-left: 45%;
+        padding-top: 10rem;
+        padding-right: 10rem;
+        text-transform: uppercase;
+        font-size: 6rem;
+        line-height: 7rem;
+        font-weight: 500;
+        font-style: italic;
+        
+        @media screen and (max-width: 1200px) {
+            font-size: 4rem;
+            margin-left: 25%;
+          }
+
+    }
+    &--subtext {
+        color:white;
+        margin-left: 50%;
+        font-size: 3rem;
+        padding-right: 10rem;
+        margin-bottom: 2rem;
+    }
+    &--link {
+        background-color: transparent;
+        border:3px solid $color-red;
+        border-radius: 2px;
+        margin-right: 10rem;
+        margin-top: 1.6rem;
+        text-decoration: none;
+        color: white;
+        padding: 10px 17px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2rem;
+        transition: all .4s;
+    }
+    &--link:hover {
+        background-color: $color-red;
+    }
+}
+
+.home__menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 12rem;
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+      }
+    &--food { 
+        margin-right: 5rem;
+        min-width: 37.5rem;
+        
+        @media screen and (max-width: 1200px) {
+            margin: 0 auto;
+          }
+
+        &-image {
+            max-width:50rem;
+            border-radius: .5px;
+        }
+        &-image:hover {
+            -webkit-filter: brightness(50%);
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            transition: all .5s ease;
+        }  
+    }
+    
+    &--drinks {
+        margin-left: 5rem;
+        min-width: 37.5rem;
+
+        @media screen and (max-width: 1200px) {
+            margin: 0 auto;
+          }
+    
+        &-image {
+            max-width:50rem;
+            border-radius: .5px;
+            -webkit-filter: brightness(100%);
+        }
+        &-image:hover {
+            -webkit-filter: brightness(50%);
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            transition: all .5s ease;   
+        }
+    }
+    &--text {
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.home__fixed{
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 70vh;
+    padding-top:16rem;
+    padding-left:8rem;
+    &--1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/japanwall.jpg');
+        &-title {
+            display: inline-block;
+            background-color: white;
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            margin-right: 8rem;
+        }
+        &-text {
+            display: inline-block;
+            background-color: white;
+            padding:1rem;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            margin-right: 8rem;
+        }
+        &-link {
+            background: transparent;
+            border: 3px solid $color-red;
+            color: white;
+            border-radius: 2px;
+            padding: 10px 17px;
+            margin-top:2rem;
+            font-size: 2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: all .4s;
+        }
+        &-link:hover {
+            background-color: $color-red;
+        }
+        &-navlink {
+            background-color: transparent;
+            border:3px solid $color-red;
+            border-radius: 2px;
+            margin-right: 10rem;
+            margin-top: 1.6rem;
+            text-decoration: none;
+            color: white;
+            padding: 10px 17px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 2rem;
+            transition: all .4s;
+        }
+        &-navlink:hover {
+            background-color: $color-red;
+        }
+    }
+    &--2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/japanalley2.jpg');
+        padding-right: 8rem;
+        text-align: right;
+
+        &-title {
+            display: inline-block;
+            background-color: white;
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            
+        }
+        &-text {
+            display: inline-block;
+            background-color: white;
+            padding:1rem;
+            font-size: 2rem;
+        }
+        &-link {
+            background: transparent;
+            border: 3px solid $color-red;
+            color: white;
+            border-radius: 2px;
+            padding: 10px 17px;
+            margin-top:2rem;
+            font-size: 2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: all .4s;
+        }
+        &-link:hover {
+            background-color: $color-red;
+        }
+    }
+}
+
+.home__gallery {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    &--title {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &--images {
+
+    }
+    &--toprow {
+
+    }
+    &--bottomrow {
+        margin-top: -.7rem;
+    }
+    &--image {
+        width: 25%;
+        opacity: 1;
+        transition: all .4s;
+        cursor: pointer;
+    }
+    &--image:hover {
+        opacity: .8;
+    }
+}
+
+.home__hours {
+    margin-bottom: 4rem;
+
+    &--address {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+    }
+    &--phone {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    &--hours {
+        width: 25%;
+    }
+    &--table {
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+    &--day {
+        font-weight: 700;
+        padding-right: 2rem;
+    }
+    &--time {
+        
+    }
+}

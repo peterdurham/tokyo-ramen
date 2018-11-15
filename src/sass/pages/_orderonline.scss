@@ -1,0 +1,152 @@
+.orderonline {
+    background-color: $color-black;
+    padding-bottom: 8rem;
+    &__title {
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        padding-top:2rem;
+        margin-bottom: 4rem;
+    }
+    &__display {
+        display: flex;
+        justify-content: center;
+        color:white;
+        margin: 0 10%;
+    }
+    &__image {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/ramenbowl3.jpg');
+        background-size: cover;
+        background-position: top;
+        height:62rem;
+        flex-basis:50%;
+        
+    }
+    &__order {
+        background-color: white;
+        flex-basis: 25%;
+
+        &--header {
+            text-align: center;
+            font-size: 2.4rem;
+            text-transform: uppercase;
+            color: $color-black;
+            font-weight: 500;
+            margin-top:1rem;
+        }
+        &--label {
+            display:flex;
+            justify-content: space-between;
+            color: $color-black;
+            margin: 0 10%;
+            border-top: 2px solid $color-black;
+            border-bottom: 2px solid $color-black;
+            line-height:2.4rem;
+            text-transform: uppercase;
+            margin-bottom:.5rem;
+        }
+    }
+
+    &__location {
+        text-align: center;
+        margin-top:4rem;
+
+        &--text {
+            font-size: 3rem;
+            margin-bottom:1rem;
+        }
+        &--buttons {
+            display:flex;
+            justify-content: center;
+        }
+        &--button {
+            padding:1rem 1.7rem;;
+            margin:1rem;
+            background-color: white;
+            font-size: 2rem;
+            border:2px solid $color-grey-dark-2;
+            border-radius: 2px;
+            transition: all .4s;
+        }
+        &--button:hover {
+            background-color: $color-grey-dark-2;
+            
+        }
+        &--details {
+            padding: 2rem;
+            font-size: 2rem;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        display:flex;
+        justify-content: space-around;
+
+        &--left {
+
+        }
+        &--right {
+
+        }
+        &--title {
+            color: $color-red;
+            font-size:3rem;
+            font-weight: 500;
+        }
+        &--option {
+            padding-left:2rem;
+            font-size: 2rem;
+        }
+    }
+    &__button {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: white;
+        border: 2px solid $color-black;
+        color: $color-black;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    &__button:hover {
+        background-color: $color-red;
+    }
+    &__item {
+        display:flex;
+        justify-content: space-between;
+        color: $color-black;
+        margin: 0 15%;
+        padding:.4rem 0;
+        &--name {
+           font-size: 1.6rem;
+        
+        }
+        &--amount {
+            display:flex;
+        }
+        &--amounttext{
+            font-size: 1.6rem;
+        }
+        
+        &--button {
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: white;
+            border: 2px solid $color-grey-dark-3;
+            color: $color-black;
+            font-size: 2rem;
+            cursor: pointer;
+            transition: all .3s;
+            margin-left:.5rem;
+        }
+        &--button:hover {
+            background-color: $color-red;
+        }
+    }
+
+}
+.option-last{
+    margin-bottom: 6rem;
+}
