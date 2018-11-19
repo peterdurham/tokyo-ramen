@@ -13,10 +13,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm build && surge -p build --domain http://ludicrous-eggnog.surge.sh/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
