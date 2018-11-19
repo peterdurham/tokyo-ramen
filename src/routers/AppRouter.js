@@ -10,7 +10,7 @@ import MenuPage from '../components/MenuPage';
 import LocationsPage from '../components/LocationsPage';
 import ContactPage from '../components/ContactPage';
 import OrderOnlinePage from '../components/OrderOnlinePage';
-import NotFoundPage from '../components/NotFoundPage';
+// import NotFoundPage from '../components/NotFoundPage';
 
 const AppRouter = () => (
     
@@ -19,6 +19,7 @@ const AppRouter = () => (
             <Header/>
             <Switch>
                 <Route path="/" component={HomePage} exact={true} />
+                <Route path="/home" component={HomePage} />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/menu" component={MenuPage} />
                 <Route path="/locations" component={LocationsPage} />
