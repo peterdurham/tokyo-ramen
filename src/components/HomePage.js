@@ -14,6 +14,8 @@ import Gallery6 from '../img/gallery6.jpg';
 import Gallery7 from '../img/gallery7.jpg';
 import Gallery8 from '../img/gallery8.jpg';
 
+import Header from './Header';
+import Footer from './Footer'
 
 
 
@@ -21,10 +23,12 @@ const HomePage = (props) => {
    
     return(
         <div>
+            
             <section className="home__header">
                 <div className="home__header--text">Try Authentic and Delicious Japanese Cuisine</div>
                 <div className="home__header--subtext">Check out the Bar and Restaurant in Tokyo</div>
-                <NavLink className="home__header--link" to="/contact" activeClassName="home__header--link-active">Visit Tokyo Ramen</NavLink>
+                {/* <NavLink className="home__header--link" to="/contact" activeClassName="home__header--link-active">Visit Tokyo Ramen</NavLink> */}
+                <a className="home__header--link" onClick={props.showContact}>Tokyo Ramen</a>
             </section>
 
             <section className="home__menu">
@@ -42,13 +46,13 @@ const HomePage = (props) => {
                 <div className="home__fixed home__fixed--1" >
                     <div className="home__fixed--1-title">Tokyo Ramen</div><br/>
                     <div className="home__fixed--1-text">Learn about the best Ramen Shop in Tokyo, open seven days a week.</div><br/>
-                    <NavLink className="home__fixed--1-navlink" to="/about" activeClassName="">About</NavLink>
-                    
+                    {/* <NavLink className="home__fixed--1-navlink" to="/about" activeClassName="">About</NavLink> */}
+                    <button className="home__fixed--1-navlink" onClick={props.showAbout}>About</button>
                 </div>
                 <div className="home__fixed home__fixed--2" >
                     <div className="home__fixed--2-title">Downtown Tokyo</div><br/>
                         <div className="home__fixed--2-text">Visit one of our four locations in the heart of Tokyo city.</div><br/>
-                        <button className="home__fixed--2-link">Locations</button>
+                        <button className="home__fixed--2-link" onClick={props.showLocations}>Locations</button>
                     </div>
             </section>
 
@@ -96,6 +100,7 @@ const HomePage = (props) => {
                     </table>
                 
             </section>
+            
         </div>
     );
     

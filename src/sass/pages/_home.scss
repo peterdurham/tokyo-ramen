@@ -43,6 +43,7 @@
         font-weight: 500;
         font-size: 2rem;
         transition: all .4s;
+        cursor:pointer;
     }
     &--link:hover {
         background-color: $color-red;
@@ -62,6 +63,7 @@
         margin-right: 5rem;
         min-width: 37.5rem;
         
+
         @media screen and (max-width: 1200px) {
             margin: 0 auto;
           }
@@ -83,6 +85,7 @@
     &--drinks {
         margin-left: 5rem;
         min-width: 37.5rem;
+        
 
         @media screen and (max-width: 1200px) {
             margin: 0 auto;
@@ -167,6 +170,7 @@
             font-weight: 500;
             font-size: 2rem;
             transition: all .4s;
+            cursor:pointer;
         }
         &-navlink:hover {
             background-color: $color-red;
@@ -204,6 +208,7 @@
             font-weight: 500;
             text-transform: uppercase;
             transition: all .4s;
+            cursor:pointer;
         }
         &-link:hover {
             background-color: $color-red;

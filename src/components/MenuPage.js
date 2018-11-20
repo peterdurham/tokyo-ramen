@@ -174,7 +174,8 @@ class MenuPage extends Component {
                     
                 </div>
                 <div className="menu__button--back">
-                    <NavLink className="menu__button" to="/orderonline" activeClassName="is-active">Order Online</NavLink>
+                    {/* <NavLink className="menu__button" to="/orderonline" activeClassName="is-active">Order Online</NavLink> */}
+                    <button onClick={this.props.showOrderonline} >Order online</button>
                 </div>
                 {ramenBackground}
                 {appetizersBackground}
