@@ -1,7 +1,7 @@
 {
   "main.css": "/tokyo-ramen/static/css/main.f3b2c1a9.chunk.css",
-  "main.js": "/tokyo-ramen/static/js/main.885dab62.chunk.js",
-  "main.js.map": "/tokyo-ramen/static/js/main.885dab62.chunk.js.map",
+  "main.js": "/tokyo-ramen/static/js/main.396702bf.chunk.js",
+  "main.js.map": "/tokyo-ramen/static/js/main.396702bf.chunk.js.map",
   "static/js/1.3e09a9d7.chunk.js": "/tokyo-ramen/static/js/1.3e09a9d7.chunk.js",
   "static/js/1.3e09a9d7.chunk.js.map": "/tokyo-ramen/static/js/1.3e09a9d7.chunk.js.map",
   "runtime~main.js": "/tokyo-ramen/static/js/runtime~main.cca8ad69.js",
@@ -22,6 +22,6 @@
   "static/media/tokyo2.jpg": "/tokyo-ramen/static/media/tokyo2.c5694014.jpg",
   "static/css/main.f3b2c1a9.chunk.css.map": "/tokyo-ramen/static/css/main.f3b2c1a9.chunk.css.map",
   "index.html": "/tokyo-ramen/index.html",
-  "precache-manifest.a1c0eab50e3adc15a2bf8c0c724f3d05.js": "/tokyo-ramen/precache-manifest.a1c0eab50e3adc15a2bf8c0c724f3d05.js",
+  "precache-manifest.08fab6d9ebdc37e594402e8527443453.js": "/tokyo-ramen/precache-manifest.08fab6d9ebdc37e594402e8527443453.js",
   "service-worker.js": "/tokyo-ramen/service-worker.js"
 }
