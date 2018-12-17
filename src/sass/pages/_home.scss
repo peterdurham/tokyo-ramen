@@ -17,6 +17,10 @@
         font-weight: 500;
         font-style: italic;
         
+        @media screen and (min-width: 1600px) {
+            font-size: 8rem;
+            margin-left: 25%;
+          }
         @media screen and (max-width: 1200px) {
             font-size: 4rem;
             margin-left: 25%;

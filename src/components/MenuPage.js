@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import '../sass/main.scss';
 
 
@@ -175,7 +175,7 @@ class MenuPage extends Component {
                 </div>
                 <div className="menu__button--back">
                     {/* <NavLink className="menu__button" to="/orderonline" activeClassName="is-active">Order Online</NavLink> */}
-                    <button onClick={this.props.showOrderonline} >Order online</button>
+                    <button className="menu__button" onClick={this.props.showOrderOnline} >Order online</button>
                 </div>
                 {ramenBackground}
                 {appetizersBackground}
