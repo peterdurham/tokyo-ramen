@@ -1,9 +1,9 @@
 {
-  "main.css": "/tokyo-ramen/static/css/main.5d1aba8e.chunk.css",
-  "main.js": "/tokyo-ramen/static/js/main.3359de46.chunk.js",
-  "main.js.map": "/tokyo-ramen/static/js/main.3359de46.chunk.js.map",
-  "static/js/1.061b5e20.chunk.js": "/tokyo-ramen/static/js/1.061b5e20.chunk.js",
-  "static/js/1.061b5e20.chunk.js.map": "/tokyo-ramen/static/js/1.061b5e20.chunk.js.map",
+  "main.css": "/tokyo-ramen/static/css/main.21e657b1.chunk.css",
+  "main.js": "/tokyo-ramen/static/js/main.2b0d98eb.chunk.js",
+  "main.js.map": "/tokyo-ramen/static/js/main.2b0d98eb.chunk.js.map",
+  "static/js/1.7834ca7e.chunk.js": "/tokyo-ramen/static/js/1.7834ca7e.chunk.js",
+  "static/js/1.7834ca7e.chunk.js.map": "/tokyo-ramen/static/js/1.7834ca7e.chunk.js.map",
   "runtime~main.js": "/tokyo-ramen/static/js/runtime~main.cca8ad69.js",
   "runtime~main.js.map": "/tokyo-ramen/static/js/runtime~main.cca8ad69.js.map",
   "static/media/gallery5.jpg": "/tokyo-ramen/static/media/gallery5.2c7dc2b7.jpg",
@@ -21,8 +21,8 @@
   "static/media/ramenbowlart.jpg": "/tokyo-ramen/static/media/ramenbowlart.2aa2a60d.jpg",
   "static/media/tokyo1.jpg": "/tokyo-ramen/static/media/tokyo1.efb2d529.jpg",
   "static/media/tokyo2.jpg": "/tokyo-ramen/static/media/tokyo2.c5694014.jpg",
-  "static/css/main.5d1aba8e.chunk.css.map": "/tokyo-ramen/static/css/main.5d1aba8e.chunk.css.map",
+  "static/css/main.21e657b1.chunk.css.map": "/tokyo-ramen/static/css/main.21e657b1.chunk.css.map",
   "index.html": "/tokyo-ramen/index.html",
-  "precache-manifest.f7ab492c3a3ac33dbf29b81a49c5bf11.js": "/tokyo-ramen/precache-manifest.f7ab492c3a3ac33dbf29b81a49c5bf11.js",
+  "precache-manifest.358b1af59cf092e2262fb8364a1f631e.js": "/tokyo-ramen/precache-manifest.358b1af59cf092e2262fb8364a1f631e.js",
   "service-worker.js": "/tokyo-ramen/service-worker.js"
 }
