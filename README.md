@@ -1,6 +1,7 @@
-# Tokyo Ramen
+# :ramen: Tokyo Ramen
 
 Demo **React** website featuring a made up Ramen restaurant in Japan.  
+  
 Home, About, Contact Us, Locations, and Order Online pages.
 
 ![app screenshot 1](http://www.peterdurham.site/images/site-images/projects/tokyo-ramen.jpg)
