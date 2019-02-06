@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import '../sass/main.scss';
+import "../sass/main.scss";
 
 const NotFoundPage = () => {
-    return (
+  return (
     <div>
-        404 - <Link to="/">Go home</Link>
+      404 - <Link to="/">Go home</Link>
     </div>
-    );
-}
+  );
+};
 
 export default NotFoundPage;

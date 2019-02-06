@@ -1,103 +1,43 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
-import '../sass/main.scss';
-import Header from './Header';
-import Footer from './Footer';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
-import MenuPage from './MenuPage';
-import LocationsPage from './LocationsPage';
-import ContactPage from './ContactPage';
-import OrderOnlinePage from './OrderOnlinePage';
+import "../sass/main.scss";
+import Header from "./Header";
+import Footer from "./Footer";
+
+import HomePage from "../components/HomePage";
+import AboutPage from "../components/AboutPage";
+import MenuPage from "../components/MenuPage";
+import LocationsPage from "../components/LocationsPage";
+import ContactPage from "../components/ContactPage";
+import OrderOnlinePage from "../components/OrderOnlinePage";
+import ScrollToTop from "../components/ScrollToTop";
 
 class TokyoRamen extends Component {
-    state = {
-        displayHomePage: true,
-        displayAboutPage: false,
-        displayMenuPage: false,
-        displayLocationsPage: false,
-        displayContactPage: false,
-        displayOrderOnlinePage: false,
-    }
+  render() {
+    return (
+      <Router>
+        <ScrollToTop>
+          <div>
+            <Header />
 
-    showHomeHandler = () => {
-        this.setState(()=>({
-            displayHomePage: true,
-            displayAboutPage: false,
-            displayMenuPage: false,
-            displayLocationsPage: false,
-            displayContactPage: false,
-            displayOrderOnlinePage: false,
-        }))
-    }
-    showAboutHandler = () => {
-        this.setState(()=>({
-            displayHomePage: false,
-            displayAboutPage: true,
-            displayMenuPage: false,
-            displayLocationsPage: false,
-            displayContactPage: false,
-            displayOrderOnlinePage: false,
-        }))
-    }
-    showMenuHandler = () => {
-        this.setState(()=>({
-            displayHomePage: false,
-            displayAboutPage: false,
-            displayMenuPage: true,
-            displayLocationsPage: false,
-            displayContactPage: false,
-            displayOrderOnlinePage: false,
-        }))
-    }
-    showLocationsHandler = () => {
-        this.setState(()=>({
-            displayHomePage: false,
-            displayAboutPage: false,
-            displayMenuPage: false,
-            displayLocationsPage: true,
-            displayContactPage: false,
-            displayOrderOnlinePage: false,
-        }))
-    }
-    showContactHandler = () => {
-        this.setState(()=>({
-            displayHomePage: false,
-            displayAboutPage: false,
-            displayMenuPage: false,
-            displayLocationsPage: false,
-            displayContactPage: true,
-            displayOrderOnlinePage: false,
-        }))
-    }
-    showOrderOnlineHandler = () => {
-        this.setState(()=>({
-            displayHomePage: false,
-            displayAboutPage: false,
-            displayMenuPage: false,
-            displayLocationsPage: false,
-            displayContactPage: false,
-            displayOrderOnlinePage: true,
-        }))
-    }
-    
-    render() {
-        let home = (this.state.displayHomePage) ? <HomePage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
-        let about = (this.state.displayAboutPage) ? <AboutPage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
-        let menu = (this.state.displayMenuPage) ? <MenuPage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
-        let locations = (this.state.displayLocationsPage) ? <LocationsPage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
-        let contact = (this.state.displayContactPage) ? <ContactPage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
-        let orderonline = (this.state.displayOrderOnlinePage) ? <OrderOnlinePage showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/> : null
+            <Switch>
+              <Route exact path="/" component={HomePage} />
+              <Route path="/home" component={HomePage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/menu" component={MenuPage} />
+              <Route path="/locations" component={LocationsPage} />
+              <Route path="/contact" component={ContactPage} />
+              <Route path="/orderonline" component={OrderOnlinePage} />
+            </Switch>
 
-        return(
-            <div>
-                <Header showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/>
-                {home}{about}{menu}{locations}{contact}{orderonline}
-                <Footer showHome={this.showHomeHandler} showAbout={this.showAboutHandler} showMenu={this.showMenuHandler} showLocations={this.showLocationsHandler} showContact = {this.showContactHandler} showOrderOnline = {this.showOrderOnlineHandler}/>
-            </div>
-        );
-    }
+            <Footer />
+          </div>
+        </ScrollToTop>
+      </Router>
+    );
+  }
 }
 
 export default TokyoRamen;

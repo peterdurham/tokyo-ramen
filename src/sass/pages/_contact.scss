@@ -1,66 +1,66 @@
 .contact {
+  &__header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../img/japanesetext.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
 
-    &__header {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/japanesetext.jpg');
-        background-size: cover;
-        background-position: top;
-        height:60vh;
-        
-        font-size: 6rem;
-        color:white;
-        text-align: center;
-        padding-top:16rem;
-        text-transform: uppercase;
-        
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    padding-top: 16rem;
+    text-transform: uppercase;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    margin: 0 25%;
+    margin-bottom: 8rem;
+  }
+  &__text {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  &__subtext {
+    margin-bottom: 2rem;
+    color: $color-red;
+  }
+  &__label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  &__input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    &--span {
+      color: $color-red;
     }
-    &__form {
-        display:flex;
-        flex-direction: column;
-        padding-top: 8rem;
-        margin: 0 25%;
-        margin-bottom: 8rem;
+    &--textarea {
+      height: 12rem;
+      font-size: 2rem;
+      padding: 0.5rem;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 2rem;
     }
-    &__text {
-        margin-bottom:1rem;
-        font-size:2rem;
-    }
-    &__subtext {
-        margin-bottom: 2rem;
-        color: $color-red;
-    }
-    &__label {
-        font-weight: bold;
-        margin-bottom: .5rem;
-    }
-    &__input {
-        font-size:2rem;
-        padding:.5rem;
-        margin-bottom:1.5rem;
-        
-        &--span{
-            color:$color-red;
-        }
-        &--textarea {
-            height: 12rem;
-            font-size:2rem;
-            padding:.5rem;
-            font-family: 'Roboto', sans-serif;
-            margin-bottom: 2rem;
-        }
-    }
-    &__button {
-        background-color: white;
-        border: 2px solid $color-red;
-        padding: 1rem 1.7rem;
-        width: 12rem;
-        border-radius: 2px;
-        font-size: 2rem;
-        text-transform: uppercase;
-        text-align: center;
-        transition: all .4s;
-    }
-    &__button:hover {
-        background-color: $color-red;
-        color: white;
-    }
+  }
+  &__button {
+    background-color: white;
+    border: 2px solid $color-red;
+    padding: 1rem 1.7rem;
+    width: 12rem;
+    border-radius: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  &__button:hover {
+    background-color: $color-red;
+    color: white;
+  }
 }

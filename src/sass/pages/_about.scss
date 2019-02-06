@@ -1,71 +1,73 @@
 .about__section1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/japannighttime.jpg');
-    background-size: cover;
-    background-position: top;
-    height:60vh;
-    color:white;
-    font-size: 6rem;
-    text-align: center;
-    padding-top:16rem;
-    text-transform: uppercase;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/japannighttime.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 60vh;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 16rem;
+  text-transform: uppercase;
 }
 
 .about__section2 {
-    background-color:white;
-  
-    height:60vh;
-   
-    color:black;
-    font-size: 6rem;
-    text-align: center;
-    padding-top:4rem;
-    &--text {
+  background-color: rgb(240, 240, 240);
 
-    }
-    &--image {
-        margin-top:3rem;
-    }
+  height: 60vh;
+
+  color: black;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 4rem;
+  &--text {
+  }
+  &--image {
+    margin-top: 3rem;
+  }
 }
 
 .about__section3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/meal.jpg');
-    background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-    
-    padding:0 10%;
-    height:60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/meal.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 
-    color:white;
-    font-size: 2.6rem;
-    font-weight: 500;
-    text-align: center;
-    padding-top:20rem;
+  padding: 0 10%;
+  height: 60vh;
+
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20rem;
 }
 
 .about__section4 {
-    background-color: white;
-    height:60vh;
-    padding:0 10%;
-    color:black;
-    font-size: 2rem;
-    text-align: center;
-    padding-top:18rem;
+  background-color: white;
+  height: 60vh;
+  padding: 0 10%;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 18rem;
 }
 
 .about__section5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/ramenkitchen.jpg');
-    background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-    background-attachment: fixed;
-    padding:0 10%;
-    height:60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/ramenkitchen.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 10%;
+  height: 60vh;
 
-    color:white;
-    font-size: 2.6rem;
-    font-weight: 500;
-    text-align: center;
-    padding-top:20rem;
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20rem;
 }
