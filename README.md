@@ -26,5 +26,5 @@ This project:
 * was built using **Create-React-App**    
 * uses **React Router** for routing  
 * is styled with **SCSS** using **Block Element Method**  
-* is deployed to **Netlify [here](https://quizzical-booth-96b3f2.netlify.com/)**    
+* is hosted on **Netlify [here](https://quizzical-booth-96b3f2.netlify.com/)**    
 
