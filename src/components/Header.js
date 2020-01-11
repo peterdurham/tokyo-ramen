@@ -67,6 +67,10 @@ const Header = () => {
         </div>
         <div className="header__social--address">@tokyoramen</div>
       </div>
+
+      <div className="header__mobile--button">
+        <button>- - - </button>
+      </div>
     </header>
   );
 };
